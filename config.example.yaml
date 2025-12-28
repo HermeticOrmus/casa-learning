@@ -1,0 +1,187 @@
+# CASA Learning System Configuration
+# Copy this to config.yaml and customize for your setup
+
+# ============================================
+# YOUR PERSONAL ANCHORS
+# These are the mental models you'll connect new knowledge to
+# ============================================
+
+anchors:
+  # Things you know deeply - shows, games, hobbies, sports
+  interests:
+    - "Star Wars"
+    - "cooking"
+    - "chess"
+    - "hiking"
+
+  # What you're actively building
+  projects:
+    - name: "Personal Website"
+      context: "React portfolio site"
+    - name: "Side Project"
+      context: "Mobile app MVP"
+    - name: "Home Automation"
+      context: "Smart home setup"
+
+  # Where you're headed
+  career:
+    current: "Junior Developer"
+    target: "Senior Software Engineer"
+    skills_focus:
+      - "System Design"
+      - "Cloud Architecture"
+      - "Leadership"
+
+# ============================================
+# CAPTURE PHASE
+# How you grab knowledge in the moment
+# ============================================
+
+capture:
+  # Options: obsidian | telegram | whatsapp | discord | cli | apple-notes
+  tool: "obsidian"
+
+  # Where captures land before processing
+  inbox_location: "00-Inbox/"
+
+  # Quick capture hotkey (tool-specific)
+  hotkey: "Cmd+Shift+C"
+
+  # Auto-add timestamp
+  timestamp: true
+
+  # Default tags for new captures
+  default_tags:
+    - "unprocessed"
+
+# ============================================
+# STRUCTURE PHASE
+# How you organize knowledge for retrieval
+# ============================================
+
+structure:
+  # Options: obsidian | notion | logseq | markdown
+  tool: "obsidian"
+
+  # Root folder for structured knowledge
+  knowledge_base: "knowledge-base/"
+
+  # Card format: standard | anki-compatible | notion-db
+  card_format: "standard"
+
+  # Auto-generate links between related cards
+  auto_link: true
+
+  # Tag taxonomy (optional - helps with consistency)
+  tag_categories:
+    domain:
+      - "programming"
+      - "security"
+      - "networking"
+      - "devops"
+    type:
+      - "concept"
+      - "command"
+      - "pattern"
+      - "tool"
+    difficulty:
+      - "beginner"
+      - "intermediate"
+      - "advanced"
+
+# ============================================
+# ABSORB PHASE
+# Audio generation for passive learning
+# ============================================
+
+audio:
+  # Options: kokoro | elevenlabs | openai | edge | bark | coqui
+  tool: "kokoro"
+
+  # Voice ID (varies by tool)
+  # Kokoro: af_sky, af_bella, am_adam, am_michael, bf_emma, bm_george
+  # ElevenLabs: use voice ID from your library
+  # OpenAI: alloy, echo, fable, onyx, nova, shimmer
+  voice: "am_adam"
+
+  # Output directory for generated audio
+  output_dir: "audio/"
+
+  # Target episode length
+  # Options: short (5min) | medium (15min) | long (30min)
+  episode_length: "medium"
+
+  # Speaking speed (0.5 - 2.0)
+  speed: 1.0
+
+  # Add background music (optional)
+  background_music: false
+  music_volume: 0.1
+
+# ============================================
+# REVIEW SCHEDULE (Optional)
+# Spaced repetition settings
+# ============================================
+
+review:
+  # Enable review reminders
+  enabled: false
+
+  # New cards to review daily
+  daily_new: 5
+
+  # Day for weekly comprehensive review
+  weekly_day: "Sunday"
+
+  # Intervals (in days)
+  intervals:
+    - 1
+    - 3
+    - 7
+    - 14
+    - 30
+
+# ============================================
+# INTEGRATIONS (Optional)
+# Connect to external services
+# ============================================
+
+integrations:
+  # AI assistance for anchor generation
+  ai:
+    enabled: false
+    provider: "claude"  # claude | openai | local
+    api_key_env: "ANTHROPIC_API_KEY"
+
+  # Sync to cloud
+  sync:
+    enabled: false
+    provider: "git"  # git | icloud | dropbox
+    auto_commit: true
+
+  # Notifications
+  notifications:
+    enabled: false
+    provider: "telegram"  # telegram | discord | email
+    daily_summary: true
+
+# ============================================
+# ADVANCED (Optional)
+# Power user settings
+# ============================================
+
+advanced:
+  # Custom capture template path
+  capture_template: "templates/capture.md"
+
+  # Custom card template path
+  card_template: "templates/card.md"
+
+  # Audio script template
+  audio_template: "templates/audio-script.md"
+
+  # Export formats
+  export:
+    anki: true
+    json: true
+    csv: false

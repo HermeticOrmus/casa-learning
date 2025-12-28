@@ -1,0 +1,133 @@
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║                        CASA LEARNING SYSTEM                                ║
+# ║                    Capture → Anchor → Structure → Absorb                   ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
+#
+# This is YOUR learning profile. Fill it out once, and AI assistants (Claude,
+# GPT, Cursor, etc.) will use it to personalize your learning experience.
+#
+# Time to complete: 5 minutes
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │ WHO ARE YOU?                                                                │
+# │ This helps AI create analogies and examples that resonate with YOU.        │
+# └─────────────────────────────────────────────────────────────────────────────┘
+
+profile:
+  name: ""  # Your name (optional, for personalized audio)
+
+  # What do you know DEEPLY? These become your analogy sources.
+  # The more specific, the better. Not just "games" but "Zelda: Breath of the Wild"
+  interests:
+    - ""  # Example: "Dragon Ball Z"
+    - ""  # Example: "cooking Italian food"
+    - ""  # Example: "chess"
+    - ""  # Example: "The Matrix trilogy"
+    - ""  # Example: "basketball"
+
+  # What are you actively building? New concepts connect to these.
+  projects:
+    - name: ""      # Example: "Personal Portfolio"
+      context: ""   # Example: "Next.js site with blog"
+
+    - name: ""      # Example: "Home Lab"
+      context: ""   # Example: "Proxmox server, learning DevOps"
+
+    - name: ""      # Example: "Side Project"
+      context: ""   # Example: "SaaS MVP for freelancers"
+
+  # Where are you heading? This frames why concepts matter.
+  career:
+    current: ""     # Example: "Junior Developer"
+    target: ""      # Example: "Senior Engineer at FAANG"
+    learning_focus: # What skills are you building?
+      - ""          # Example: "System Design"
+      - ""          # Example: "Cloud Architecture"
+      - ""          # Example: "Security"
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │ YOUR TOOLS                                                                  │
+# │ Pick one option for each. Start simple, optimize later.                     │
+# └─────────────────────────────────────────────────────────────────────────────┘
+
+tools:
+  # Where do you capture knowledge in the moment?
+  # Options: telegram | whatsapp | obsidian | apple-notes | notion | cli
+  capture: "telegram"
+
+  # Where do you structure and store cards?
+  # Options: obsidian | notion | markdown | logseq
+  structure: "obsidian"
+
+  # How do you generate audio? (Leave blank to skip audio)
+  # Options: kokoro (free) | edge (free) | openai | elevenlabs
+  audio: "kokoro"
+
+  # What voice style?
+  # Options: mentor (wise, calm) | energetic (upbeat) | neutral
+  voice_style: "mentor"
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │ AI ASSISTANT SETTINGS                                                       │
+# │ Configure how AI helps you learn.                                           │
+# └─────────────────────────────────────────────────────────────────────────────┘
+
+ai:
+  # Should AI auto-enhance your captures with better analogies?
+  enhance_captures: true
+
+  # Should AI suggest connections to your projects?
+  suggest_connections: true
+
+  # Should AI generate audio scripts from your cards?
+  generate_scripts: true
+
+  # How much should AI explain?
+  # Options: concise | balanced | detailed
+  explanation_depth: "balanced"
+
+  # Preferred AI for enhancement (if you have API keys)
+  # Options: claude | openai | local | none
+  provider: "claude"
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │ LEARNING PREFERENCES                                                        │
+# │ Fine-tune your experience.                                                  │
+# └─────────────────────────────────────────────────────────────────────────────┘
+
+preferences:
+  # How long should audio episodes be?
+  # Options: short (5min) | medium (15min) | long (30min)
+  episode_length: "medium"
+
+  # Enable spaced repetition reminders?
+  spaced_repetition: true
+
+  # Review intervals (in days)
+  review_intervals: [1, 3, 7, 14, 30]
+
+  # Weekly review day
+  review_day: "Sunday"
+
+  # Capture reminder if inactive for X hours
+  nudge_after_hours: 24
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │ FILE PATHS                                                                  │
+# │ Where your knowledge lives. Adjust to match your setup.                     │
+# └─────────────────────────────────────────────────────────────────────────────┘
+
+paths:
+  inbox: "./inbox"              # Raw captures land here
+  knowledge_base: "./cards"     # Structured cards
+  audio: "./audio"              # Generated audio files
+  templates: "./templates"      # Card templates
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# That's it! Your AI assistant will now personalize your learning experience.
+#
+# Quick test: Ask your AI "Help me learn about [topic]" and watch it use
+# your interests, projects, and career goals to create relevant explanations.
+# ═══════════════════════════════════════════════════════════════════════════════
