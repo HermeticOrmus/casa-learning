@@ -6,7 +6,7 @@
 # This is YOUR learning profile. Fill it out once, and AI assistants (Claude,
 # GPT, Cursor, etc.) will use it to personalize your learning experience.
 #
-# Time to complete: 5 minutes
+# Time to complete: 10-15 minutes (worth every second)
 #
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -16,42 +16,118 @@
 # └─────────────────────────────────────────────────────────────────────────────┘
 
 profile:
-  name: "Ormus"  # Your name (optional, for personalized audio)
+  name: ""  # Your name (optional, for personalized audio)
 
-  # What do you know DEEPLY? These become your analogy sources.
-  # The more specific, the better. Not just "games" but "Zelda: Breath of the Wild"
+  # ═══════════════════════════════════════════════════════════════════════════
+  # WHY PERSONAL ANCHORS MATTER - The Science
+  # ═══════════════════════════════════════════════════════════════════════════
+  #
+  # Your brain doesn't store information in isolation. It builds NETWORKS.
+  # New knowledge sticks when it connects to existing, strong neural pathways.
+  #
+  # Generic analogies ("like a filing cabinet") create weak connections because
+  # you don't have deep, emotional, multi-layered understanding of filing cabinets.
+  #
+  # But YOUR anchors - things you've spent thousands of hours on - are DENSE
+  # neural networks with:
+  #   • Emotional resonance (you care about them)
+  #   • Procedural memory (you can DO things with them)
+  #   • Rich associations (they connect to other memories)
+  #   • Hierarchical understanding (you know the nuances)
+  #
+  # When we explain "TCP handshake" using YOUR anchor (whether that's:
+  #   - A chef: "like confirming an order before cooking"
+  #   - A musician: "like counting in before the song starts"
+  #   - A gamer: "like the ready-check before a raid")
+  #
+  # ...the concept plugs into YOUR existing network, not a generic one.
+  #
+  # This is why two people can hear the same explanation and one remembers it
+  # forever while the other forgets it instantly. The difference isn't intelligence.
+  # It's whether the explanation connected to THEIR existing knowledge.
+  #
+  # TAKE 10 MINUTES TO FIND YOUR ANCHORS. It will save you hundreds of hours
+  # of re-learning things that didn't stick the first time.
+  #
+  # ═══════════════════════════════════════════════════════════════════════════
+  # FINDING YOUR ANCHORS - The Most Important Part
+  # ═══════════════════════════════════════════════════════════════════════════
+  #
+  # Anchors are domains you know DEEPLY - things you could explain to someone
+  # for hours without looking anything up. The more specific, the better.
+  #
+  # HOW TO FIND YOUR ANCHORS:
+  #
+  # 1. What do you lose track of time doing?
+  #    → Not "music" but "mixing hip-hop beats in Ableton"
+  #    → Not "cooking" but "perfecting homemade ramen broth"
+  #
+  # 2. What would you explain to a curious stranger for free?
+  #    → Not "sports" but "why zone defense changed basketball"
+  #    → Not "movies" but "how Christopher Nolan uses time manipulation"
+  #
+  # 3. What have you been doing for 5+ years?
+  #    → Hobbies, jobs, skills, obsessions - anything with DEPTH
+  #
+  # 4. What makes you say "actually, it's more nuanced than that..."?
+  #    → These topics have the layers needed for good analogies
+  #
+  # GOOD ANCHORS have:
+  #   ✓ Structure (rules, systems, hierarchies)
+  #   ✓ Progression (levels, stages, evolution)
+  #   ✓ Relationships (how parts connect)
+  #   ✓ Edge cases (exceptions, special situations)
+  #
+  # EXAMPLES BY CATEGORY:
+  #
+  # Sports:      "Basketball pick-and-roll offense"
+  #              "Marathon training periodization"
+  #              "Chess opening theory"
+  #
+  # Creative:    "Oil painting color mixing"
+  #              "Screenwriting three-act structure"
+  #              "Jazz improvisation over chord changes"
+  #
+  # Games:       "Zelda dungeon puzzle design"
+  #              "Poker pot odds and ranges"
+  #              "Minecraft redstone circuitry"
+  #
+  # Practical:   "Sourdough fermentation"
+  #              "Car engine troubleshooting"
+  #              "Gardening soil ecosystems"
+  #
+  # Professional: "Restaurant kitchen workflow"
+  #               "Construction project management"
+  #               "Nursing triage protocols"
+  #
+  # ═══════════════════════════════════════════════════════════════════════════
+
   interests:
-    - "Dragon Ball Z"           # Power levels, transformations, Hakai, fusion, ki
-    - "Zelda: Breath of the Wild"  # Hyrule, shrines, Sheikah Slate, inventory, cooking
-    - "Final Fantasy VII"       # Materia system, party management, limit breaks
-    - "Dark Souls / Elden Ring" # Difficulty, bonfires, stamina management, git gud
-    - "Gundam (Universal Century)"  # Mech customization, Newtypes, mobile suits
-    - "RPG mechanics"           # Skill trees, leveling, stats, inventory management
-    - "Fighting games"          # Combos, frame data, hitboxes, neutral game
+    - ""  # Your first anchor (the deepest one)
+    - ""  # Second anchor
+    - ""  # Third anchor
+    - ""  # Fourth anchor (optional)
+    - ""  # Fifth anchor (optional)
 
   # What are you actively building? New concepts connect to these.
   projects:
-    - name: "Hermetic Tech"
-      context: "Gold Hat tech ecosystem - ethical software that empowers rather than extracts"
+    - name: ""
+      context: ""   # What stack/tools? What problem does it solve?
 
-    - name: "Linux Essentials Cert"
-      context: "LPI 010-160 certification prep, learning Linux administration"
+    - name: ""
+      context: ""
 
-    - name: "Pentesting Practice"
-      context: "TryHackMe, HackTheBox - CTF challenges and security research"
-
-    - name: "Go Learning"
-      context: "Building CLI tools and learning systems in Go"
+    - name: ""
+      context: ""
 
   # Where are you heading? This frames why concepts matter.
   career:
-    current: "Gold Hat Technologist"
-    target: "Full-spectrum technologist - security, systems, consciousness"
-    learning_focus:
-      - "Linux Administration"
-      - "Cybersecurity / Pentesting"
-      - "Go Programming"
-      - "System Architecture"
+    current: ""     # Your current role or situation
+    target: ""      # Where you want to be
+    learning_focus: # What skills are you building?
+      - ""
+      - ""
+      - ""
 
 # ┌─────────────────────────────────────────────────────────────────────────────┐
 # │ YOUR TOOLS                                                                  │
@@ -134,6 +210,11 @@ paths:
 # ═══════════════════════════════════════════════════════════════════════════════
 # That's it! Your AI assistant will now personalize your learning experience.
 #
-# Quick test: Ask your AI "Help me learn about [topic]" and watch it use
-# your interests, projects, and career goals to create relevant explanations.
+# NEXT STEPS:
+# 1. Copy this file to config.local.yaml (git-ignored for privacy)
+# 2. Fill in YOUR anchors - take 10 minutes, it's worth it
+# 3. Test with: "Help me learn [topic]" and watch the magic
+#
+# Remember: The best anchors are deeply personal. There are no wrong answers,
+# only YOUR answers.
 # ═══════════════════════════════════════════════════════════════════════════════
