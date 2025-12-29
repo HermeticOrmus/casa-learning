@@ -16,36 +16,42 @@
 # └─────────────────────────────────────────────────────────────────────────────┘
 
 profile:
-  name: ""  # Your name (optional, for personalized audio)
+  name: "Ormus"  # Your name (optional, for personalized audio)
 
   # What do you know DEEPLY? These become your analogy sources.
   # The more specific, the better. Not just "games" but "Zelda: Breath of the Wild"
   interests:
-    - ""  # Example: "Dragon Ball Z"
-    - ""  # Example: "cooking Italian food"
-    - ""  # Example: "chess"
-    - ""  # Example: "The Matrix trilogy"
-    - ""  # Example: "basketball"
+    - "Dragon Ball Z"           # Power levels, transformations, Hakai, fusion, ki
+    - "Zelda: Breath of the Wild"  # Hyrule, shrines, Sheikah Slate, inventory, cooking
+    - "Final Fantasy VII"       # Materia system, party management, limit breaks
+    - "Dark Souls / Elden Ring" # Difficulty, bonfires, stamina management, git gud
+    - "Gundam (Universal Century)"  # Mech customization, Newtypes, mobile suits
+    - "RPG mechanics"           # Skill trees, leveling, stats, inventory management
+    - "Fighting games"          # Combos, frame data, hitboxes, neutral game
 
   # What are you actively building? New concepts connect to these.
   projects:
-    - name: ""      # Example: "Personal Portfolio"
-      context: ""   # Example: "Next.js site with blog"
+    - name: "Hermetic Tech"
+      context: "Gold Hat tech ecosystem - ethical software that empowers rather than extracts"
 
-    - name: ""      # Example: "Home Lab"
-      context: ""   # Example: "Proxmox server, learning DevOps"
+    - name: "Linux Essentials Cert"
+      context: "LPI 010-160 certification prep, learning Linux administration"
 
-    - name: ""      # Example: "Side Project"
-      context: ""   # Example: "SaaS MVP for freelancers"
+    - name: "Pentesting Practice"
+      context: "TryHackMe, HackTheBox - CTF challenges and security research"
+
+    - name: "Go Learning"
+      context: "Building CLI tools and learning systems in Go"
 
   # Where are you heading? This frames why concepts matter.
   career:
-    current: ""     # Example: "Junior Developer"
-    target: ""      # Example: "Senior Engineer at FAANG"
-    learning_focus: # What skills are you building?
-      - ""          # Example: "System Design"
-      - ""          # Example: "Cloud Architecture"
-      - ""          # Example: "Security"
+    current: "Gold Hat Technologist"
+    target: "Full-spectrum technologist - security, systems, consciousness"
+    learning_focus:
+      - "Linux Administration"
+      - "Cybersecurity / Pentesting"
+      - "Go Programming"
+      - "System Architecture"
 
 # ┌─────────────────────────────────────────────────────────────────────────────┐
 # │ YOUR TOOLS                                                                  │
