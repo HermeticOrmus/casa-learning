@@ -1,4 +1,21 @@
-# Capture-Anchor-Structure-Absorb (CASA)
+<p align="center">
+  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_seed.gif" alt="CASA Learning" width="128" style="image-rendering: pixelated;" />
+</p>
+
+<h1 align="center">CASA Learning</h1>
+
+<p align="center">
+  <em>Capture, Anchor, Structure, Absorb -- AI-powered learning framework</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/casa-learning/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/casa-learning?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/casa-learning/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/casa-learning?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/casa-learning/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/casa-learning?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Python-aa8142?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+
+---
 
 > A plug-and-play learning system that turns information into lasting knowledge through multi-modal reinforcement.
 
